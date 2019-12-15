@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+        {{page_title}}
+{% endblock page_title %}
+
+{% block isi %}
+<section id="banner">
+	<div class="kotak_login">
+		<td>PINJAM</td>
+		<form method="post">
+			{% csrf_token %}
+			<table>
+            <tr>
+                <td>
+                    NIM
+                </td>
+                <td>
+                    {{datapinjam.NIM}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Judul
+                </td>
+                <td>
+                    {{datapinjam.Buku}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tanggal Pinjam
+                </td>
+                 <td>
+                    {{datapinjam.Tanggal_Pinjam}}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Petugas
+                </td>
+                <td>
+                    {{datapinjam.Petugas}}
+                </td>
+            </tr>
+
+        </table>
+
+			<input type="submit" class="tombol_login" value="Pinjam">
+
+			<center>
+				<a class="link" href="http://127.0.0.1:8000">Back</a>
+			</center>
+		</form>
+
+	</div>
+</section>
+
+{% endblock isi %}
