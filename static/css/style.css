@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background:#576665;
+}
+div.background {
+    border: 2px solid white;
+}
+
+div.transbox {
+    text-align: center;
+    margin: 30px;
+    background-color: #002338;
+    border: 5px solid #002338;
+	margin-left: 20px;
+	margin-right: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 10%;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+td{
+    text-size:12px;
+}
+
+h1.judul {
+    font-family: Arial;
+    font-size: 50px;
+}
+tengah {
+
+    color: white;
+    text-size:12px;
+
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.pinjam{
+		text-decoration: none;
+		font-family: sans-serif;
+		font-size: 30px;
+		border: 1px solid #cecece;
+		border-radius:3px;
+		padding: 3px 10px;
+		box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+		color: white;
+		background-color: transparent;
+	}
+.pinjam:hover{
+		border: 1px solid #b1b1b1;
+		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	}

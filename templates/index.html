@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block page_title %}
+        {{page_title}}
+{% endblock page_title %}
+
+{% block isi %}
+			<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>Perpustakaan Kampus</h1>
+					</header>
+					<div class="flex ">
+						<div>
+                            <img src="static/img/gambar1.png">
+							<h3>Belajar</h3>
+							<p>Jangan lupa belajar</p>
+						</div>
+						<div>
+                            <img src="static/img/gambar2.png">
+							<h3>Try</h3>
+							<p>Coba dan ulangi jika gagal</p>
+						</div>
+						<div>
+                            <img src="static/img/gambar3.png">
+							<h3>Wisuda</h3>
+							<p>Kapan kamu pakai toga ?</p>
+						</div>
+					</div>
+					<footer>
+						<a href="http://127.0.0.1:8000/data/pinjam/" class="button">PINJAM</a>
+					</footer>
+				</div>
+			</section>
+{% endblock isi %}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data</title>
+</head>
+<body>
+<h1>{{title}}</h1>
+{% for post in Mahasiswa %}
+<table border="2">
+    <tr>
+        <td>Nama</td>
+        <td>NIM</td>
+        <td>Prodi</td>
+        <td>Email</td>
+    </tr>
+
+    <tr>
+        <td>{{post.nama}}</td>
+        <td>{{post.nim}}</td>
+        <td>{{post.prodi}}</td>
+        <td>{{post.email}}</td>
+    </tr>
+</table>
+
+
+{% endfor %}
+</body>
+</html>
